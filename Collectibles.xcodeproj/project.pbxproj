@@ -1,0 +1,1542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865799292CF1FED100B6369E /* CollectiblesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799272CF1FED100B6369E /* CollectiblesApp.swift */; };
+		8657992B2CF1FED100B6369E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799232CF1FED100B6369E /* Preview Assets.xcassets */; };
+		8657992C2CF1FED100B6369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799252CF1FED100B6369E /* Assets.xcassets */; };
+		865799F92CF200A900B6369E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799492CF200A900B6369E /* Fonts.swift */; };
+		865799FA2CF200A900B6369E /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799312CF200A900B6369E /* AmplitudeManager.swift */; };
+		865799FB2CF200A900B6369E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993D2CF200A900B6369E /* SearchView.swift */; };
+		865799FC2CF200A900B6369E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F62CF200A900B6369E /* SessionManager.swift */; };
+		865799FD2CF200A900B6369E /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F02CF200A900B6369E /* IAPProduct.swift */; };
+		865799FE2CF200A900B6369E /* Scalable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657994C2CF200A900B6369E /* Scalable.swift */; };
+		865799FF2CF200A900B6369E /* CardOtherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D82CF200A900B6369E /* CardOtherModel.swift */; };
+		86579A002CF200A900B6369E /* DiscoverRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D02CF200A900B6369E /* DiscoverRequest.swift */; };
+		86579A012CF200A900B6369E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799AB2CF200A900B6369E /* Game.swift */; };
+		86579A022CF200A900B6369E /* CollectionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799802CF200A900B6369E /* CollectionSettingsView.swift */; };
+		86579A032CF200A900B6369E /* WishListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799842CF200A900B6369E /* WishListViewModel.swift */; };
+		86579A042CF200A900B6369E /* OnboardingCardView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799AF2CF200A900B6369E /* OnboardingCardView2.swift */; };
+		86579A052CF200A900B6369E /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657998B2CF200A900B6369E /* Filters.swift */; };
+		86579A062CF200A900B6369E /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799BA2CF200A900B6369E /* Currency.swift */; };
+		86579A072CF200A900B6369E /* CollectionTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799782CF200A900B6369E /* CollectionTab.swift */; };
+		86579A082CF200A900B6369E /* MainTabType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A02CF200A900B6369E /* MainTabType.swift */; };
+		86579A092CF200A900B6369E /* HomeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799DF2CF200A900B6369E /* HomeRequest.swift */; };
+		86579A0A2CF200A900B6369E /* RecommendedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657999B2CF200A900B6369E /* RecommendedCardView.swift */; };
+		86579A0B2CF200A900B6369E /* HomeSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799992CF200A900B6369E /* HomeSearchable.swift */; };
+		86579A0C2CF200A900B6369E /* PageTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993A2CF200A900B6369E /* PageTabBar.swift */; };
+		86579A0D2CF200A900B6369E /* CategoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799752CF200A900B6369E /* CategoryListViewModel.swift */; };
+		86579A0E2CF200A900B6369E /* ProfileScannedCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799DD2CF200A900B6369E /* ProfileScannedCards.swift */; };
+		86579A0F2CF200A900B6369E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799572CF200A900B6369E /* DetailsView.swift */; };
+		86579A102CF200A900B6369E /* OnboardingPageIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B32CF200A900B6369E /* OnboardingPageIndicatorView.swift */; };
+		86579A112CF200A900B6369E /* SalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657995A2CF200A900B6369E /* SalesView.swift */; };
+		86579A122CF200A900B6369E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A92CF200A900B6369E /* MenuView.swift */; };
+		86579A132CF200A900B6369E /* PurchaseValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F42CF200A900B6369E /* PurchaseValidationObserver.swift */; };
+		86579A142CF200A900B6369E /* ProfileInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E62CF200A900B6369E /* ProfileInfoRequest.swift */; };
+		86579A152CF200A900B6369E /* CardUploadResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799CB2CF200A900B6369E /* CardUploadResponse.swift */; };
+		86579A162CF200A900B6369E /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799422CF200A900B6369E /* String+Extension.swift */; };
+		86579A172CF200A900B6369E /* PriceReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799DA2CF200A900B6369E /* PriceReport.swift */; };
+		86579A182CF200A900B6369E /* GlobalDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657994A2CF200A900B6369E /* GlobalDefinitions.swift */; };
+		86579A192CF200A900B6369E /* AlertPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799362CF200A900B6369E /* AlertPresentation.swift */; };
+		86579A1A2CF200A900B6369E /* GradesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D12CF200A900B6369E /* GradesRequest.swift */; };
+		86579A1B2CF200A900B6369E /* CardScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657996A2CF200A900B6369E /* CardScannerView.swift */; };
+		86579A1C2CF200A900B6369E /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799342CF200A900B6369E /* FirebaseManager.swift */; };
+		86579A1D2CF200A900B6369E /* CardCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799872CF200A900B6369E /* CardCollectionViewModel.swift */; };
+		86579A1E2CF200A900B6369E /* ManualSearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657995F2CF200A900B6369E /* ManualSearchableView.swift */; };
+		86579A1F2CF200A900B6369E /* ProfileInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799DC2CF200A900B6369E /* ProfileInfoModel.swift */; };
+		86579A202CF200A900B6369E /* ProductPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F12CF200A900B6369E /* ProductPrice.swift */; };
+		86579A212CF200A900B6369E /* ProfileAddCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E02CF200A900B6369E /* ProfileAddCardRequest.swift */; };
+		86579A222CF200A900B6369E /* HomeViewCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799902CF200A900B6369E /* HomeViewCellType.swift */; };
+		86579A232CF200A900B6369E /* PaygateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799BD2CF200A900B6369E /* PaygateView.swift */; };
+		86579A242CF200A900B6369E /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657994D2CF200A900B6369E /* ScreenSize.swift */; };
+		86579A252CF200A900B6369E /* CardDescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657995D2CF200A900B6369E /* CardDescriptionViewModel.swift */; };
+		86579A262CF200A900B6369E /* HomeAliasList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799972CF200A900B6369E /* HomeAliasList.swift */; };
+		86579A272CF200A900B6369E /* CardDiscover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D72CF200A900B6369E /* CardDiscover.swift */; };
+		86579A282CF200A900B6369E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657999E2CF200A900B6369E /* HomeViewModel.swift */; };
+		86579A292CF200A900B6369E /* CardCollectionEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657997E2CF200A900B6369E /* CardCollectionEmptyView.swift */; };
+		86579A2A2CF200A900B6369E /* ScannedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657997B2CF200A900B6369E /* ScannedListView.swift */; };
+		86579A2B2CF200A900B6369E /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993F2CF200A900B6369E /* TagView.swift */; };
+		86579A2C2CF200A900B6369E /* IAPErrorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799ED2CF200A900B6369E /* IAPErrorHelper.swift */; };
+		86579A2D2CF200A900B6369E /* PriceChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799952CF200A900B6369E /* PriceChartViewModel.swift */; };
+		86579A2E2CF200A900B6369E /* CardScannerTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799682CF200A900B6369E /* CardScannerTabBar.swift */; };
+		86579A2F2CF200A900B6369E /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799452CF200A900B6369E /* RestAPITransport.swift */; };
+		86579A302CF200A900B6369E /* ProfileCollectionsAvailableRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E42CF200A900B6369E /* ProfileCollectionsAvailableRequest.swift */; };
+		86579A312CF200A900B6369E /* CardScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657996B2CF200A900B6369E /* CardScannerViewModel.swift */; };
+		86579A322CF200A900B6369E /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F32CF200A900B6369E /* IAPManager.swift */; };
+		86579A332CF200A900B6369E /* PaygateProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B82CF200A900B6369E /* PaygateProduct.swift */; };
+		86579A342CF200A900B6369E /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799502CF200A900B6369E /* Appearance.swift */; };
+		86579A352CF200A900B6369E /* OnboardingCardView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B12CF200A900B6369E /* OnboardingCardView4.swift */; };
+		86579A362CF200A900B6369E /* ProfileRemoveCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E72CF200A900B6369E /* ProfileRemoveCardRequest.swift */; };
+		86579A372CF200A900B6369E /* ProfileAttributesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E12CF200A900B6369E /* ProfileAttributesRequest.swift */; };
+		86579A382CF200A900B6369E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799672CF200A900B6369E /* CameraView.swift */; };
+		86579A392CF200A900B6369E /* CardDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799CE2CF200A900B6369E /* CardDetailsRequest.swift */; };
+		86579A3A2CF200A900B6369E /* ParallelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799592CF200A900B6369E /* ParallelsView.swift */; };
+		86579A3B2CF200A900B6369E /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C92CF200A900B6369E /* CardDetails.swift */; };
+		86579A3C2CF200A900B6369E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A42CF200A900B6369E /* MainTabView.swift */; };
+		86579A3D2CF200A900B6369E /* IAPActionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799EF2CF200A900B6369E /* IAPActionResult.swift */; };
+		86579A3E2CF200A900B6369E /* NumberLaunches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657994B2CF200A900B6369E /* NumberLaunches.swift */; };
+		86579A3F2CF200A900B6369E /* FiltersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657998E2CF200A900B6369E /* FiltersViewModel.swift */; };
+		86579A402CF200A900B6369E /* ProfileCollectionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E32CF200A900B6369E /* ProfileCollectionRequest.swift */; };
+		86579A412CF200A900B6369E /* CardsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D32CF200A900B6369E /* CardsManager.swift */; };
+		86579A422CF200A900B6369E /* CardGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657997F2CF200A900B6369E /* CardGridView.swift */; };
+		86579A432CF200A900B6369E /* TagLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993E2CF200A900B6369E /* TagLayout.swift */; };
+		86579A442CF200A900B6369E /* DetailsTabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799532CF200A900B6369E /* DetailsTabItem.swift */; };
+		86579A452CF200A900B6369E /* PaygateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799BE2CF200A900B6369E /* PaygateViewModel.swift */; };
+		86579A462CF200A900B6369E /* CardDiscoverResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799CA2CF200A900B6369E /* CardDiscoverResponse.swift */; };
+		86579A472CF200A900B6369E /* OnboardingPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799AC2CF200A900B6369E /* OnboardingPageItem.swift */; };
+		86579A482CF200A900B6369E /* CollectionTotalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799812CF200A900B6369E /* CollectionTotalHeader.swift */; };
+		86579A492CF200A900B6369E /* CardCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799862CF200A900B6369E /* CardCollectionView.swift */; };
+		86579A4A2CF200A900B6369E /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C02CF200A900B6369E /* RootView.swift */; };
+		86579A4B2CF200A900B6369E /* OnboardingCardView5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B22CF200A900B6369E /* OnboardingCardView5.swift */; };
+		86579A4C2CF200A900B6369E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A22CF200A900B6369E /* TabBarView.swift */; };
+		86579A4D2CF200A900B6369E /* ProfileManagerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799EA2CF200A900B6369E /* ProfileManagerMediator.swift */; };
+		86579A4E2CF200A900B6369E /* CategoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799742CF200A900B6369E /* CategoryListView.swift */; };
+		86579A4F2CF200A900B6369E /* ParallelCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799582CF200A900B6369E /* ParallelCardView.swift */; };
+		86579A502CF200A900B6369E /* CategoriesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799CF2CF200A900B6369E /* CategoriesRequest.swift */; };
+		86579A512CF200A900B6369E /* APIRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799442CF200A900B6369E /* APIRequestBody.swift */; };
+		86579A522CF200A900B6369E /* CardIdentifierMethodViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799652CF200A900B6369E /* CardIdentifierMethodViewModel.swift */; };
+		86579A532CF200A900B6369E /* HomeCardScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799982CF200A900B6369E /* HomeCardScannerView.swift */; };
+		86579A542CF200A900B6369E /* OnboardingCardView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B02CF200A900B6369E /* OnboardingCardView3.swift */; };
+		86579A552CF200A900B6369E /* ConfirmDeleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799552CF200A900B6369E /* ConfirmDeleteView.swift */; };
+		86579A562CF200A900B6369E /* PriceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799942CF200A900B6369E /* PriceChartView.swift */; };
+		86579A572CF200A900B6369E /* PreferencesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A72CF200A900B6369E /* PreferencesViewModel.swift */; };
+		86579A582CF200A900B6369E /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D92CF200A900B6369E /* HomeModel.swift */; };
+		86579A592CF200A900B6369E /* CardScannedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657996F2CF200A900B6369E /* CardScannedImageView.swift */; };
+		86579A5A2CF200A900B6369E /* RootViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C12CF200A900B6369E /* RootViewManager.swift */; };
+		86579A5B2CF200A900B6369E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B62CF200A900B6369E /* OnboardingViewModel.swift */; };
+		86579A5C2CF200A900B6369E /* TotalPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799792CF200A900B6369E /* TotalPriceModel.swift */; };
+		86579A5D2CF200A900B6369E /* ProfileBindingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E22CF200A900B6369E /* ProfileBindingRequest.swift */; };
+		86579A5E2CF200A900B6369E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799B52CF200A900B6369E /* OnboardingView.swift */; };
+		86579A5F2CF200A900B6369E /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993C2CF200A900B6369E /* SearchField.swift */; };
+		86579A602CF200A900B6369E /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E92CF200A900B6369E /* ProfileManager.swift */; };
+		86579A612CF200A900B6369E /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799832CF200A900B6369E /* WishListView.swift */; };
+		86579A622CF200A900B6369E /* CardCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C82CF200A900B6369E /* CardCategory.swift */; };
+		86579A632CF200A900B6369E /* IAPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799EC2CF200A900B6369E /* IAPError.swift */; };
+		86579A642CF200A900B6369E /* ScannedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657997C2CF200A900B6369E /* ScannedListViewModel.swift */; };
+		86579A652CF200A900B6369E /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799472CF200A900B6369E /* NetworkError.swift */; };
+		86579A662CF200A900B6369E /* OnboardingCardView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799AE2CF200A900B6369E /* OnboardingCardView1.swift */; };
+		86579A672CF200A900B6369E /* Combine+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799412CF200A900B6369E /* Combine+Extension.swift */; };
+		86579A682CF200A900B6369E /* ProfileCreateRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799E52CF200A900B6369E /* ProfileCreateRequest.swift */; };
+		86579A692CF200A900B6369E /* PriceFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799922CF200A900B6369E /* PriceFilters.swift */; };
+		86579A6A2CF200A900B6369E /* ErrorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799892CF200A900B6369E /* ErrorScreenView.swift */; };
+		86579A6B2CF200A900B6369E /* CardScannedImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799702CF200A900B6369E /* CardScannedImageViewModel.swift */; };
+		86579A6C2CF200A900B6369E /* ManualCardSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799622CF200A900B6369E /* ManualCardSearchView.swift */; };
+		86579A6D2CF200A900B6369E /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657994E2CF200A900B6369E /* TextAttributes.swift */; };
+		86579A6E2CF200A900B6369E /* ProgressView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993B2CF200A900B6369E /* ProgressView+Styles.swift */; };
+		86579A6F2CF200A900B6369E /* OtherCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657999A2CF200A900B6369E /* OtherCardView.swift */; };
+		86579A702CF200A900B6369E /* CollectionLayoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799772CF200A900B6369E /* CollectionLayoutType.swift */; };
+		86579A712CF200A900B6369E /* FiltersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657998D2CF200A900B6369E /* FiltersView.swift */; };
+		86579A722CF200A900B6369E /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799CC2CF200A900B6369E /* Grade.swift */; };
+		86579A732CF200A900B6369E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799512CF200A900B6369E /* CameraManager.swift */; };
+		86579A742CF200A900B6369E /* ProfileCollectionCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799DB2CF200A900B6369E /* ProfileCollectionCards.swift */; };
+		86579A752CF200A900B6369E /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799D52CF200A900B6369E /* NavigationManager.swift */; };
+		86579A762CF200A900B6369E /* CardSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799612CF200A900B6369E /* CardSearchViewModel.swift */; };
+		86579A772CF200A900B6369E /* Button+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799372CF200A900B6369E /* Button+Styles.swift */; };
+		86579A782CF200A900B6369E /* DetailsFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799562CF200A900B6369E /* DetailsFooterView.swift */; };
+		86579A792CF200A900B6369E /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799332CF200A900B6369E /* FacebookManager.swift */; };
+		86579A7A2CF200A900B6369E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657999D2CF200A900B6369E /* HomeView.swift */; };
+		86579A7B2CF200A900B6369E /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C52CF200A900B6369E /* SplashView.swift */; };
+		86579A7C2CF200A900B6369E /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799A62CF200A900B6369E /* PreferencesView.swift */; };
+		86579A7D2CF200A900B6369E /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799392CF200A900B6369E /* LoaderView.swift */; };
+		86579A7E2CF200A900B6369E /* PaygateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799BB2CF200A900B6369E /* PaygateInteractor.swift */; };
+		86579A7F2CF200A900B6369E /* CardIdentifierMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799642CF200A900B6369E /* CardIdentifierMethodView.swift */; };
+		86579A802CF200A900B6369E /* GradientBackgorund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799382CF200A900B6369E /* GradientBackgorund.swift */; };
+		86579A812CF200A900B6369E /* SplashReceiptValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C32CF200A900B6369E /* SplashReceiptValidationObserver.swift */; };
+		86579A822CF200A900B6369E /* DetectCardErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657996D2CF200A900B6369E /* DetectCardErrorAlert.swift */; };
+		86579A832CF200A900B6369E /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799322CF200A900B6369E /* BranchManager.swift */; };
+		86579A842CF200A900B6369E /* CardDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657995C2CF200A900B6369E /* CardDescriptionView.swift */; };
+		86579A8A2CF200BF00B6369E /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A872CF200BF00B6369E /* Inter-Regular.otf */; };
+		86579A8B2CF200BF00B6369E /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A882CF200BF00B6369E /* Inter-SemiBold.otf */; };
+		86579A8C2CF200BF00B6369E /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A852CF200BF00B6369E /* Inter-Bold.otf */; };
+		86579A8D2CF200BF00B6369E /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A862CF200BF00B6369E /* Inter-Medium.otf */; };
+		86579A8F2CF200CC00B6369E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86579A8E2CF200CC00B6369E /* AppDelegate.swift */; };
+		86579A932CF20C0A00B6369E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86579A912CF20C0A00B6369E /* Localizable.strings */; };
+		BF106DBC892F91126C226C54 /* Pods_Collectibles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6B3E8FF8B09BF1725BCEA /* Pods_Collectibles.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DA8F9120E22C965E05E7B08 /* Pods-Collectibles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collectibles.release.xcconfig"; path = "Target Support Files/Pods-Collectibles/Pods-Collectibles.release.xcconfig"; sourceTree = "<group>"; };
+		59B6B3E8FF8B09BF1725BCEA /* Pods_Collectibles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collectibles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865799072CF1FE0D00B6369E /* Collectibles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collectibles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		865799232CF1FED100B6369E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		865799252CF1FED100B6369E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865799262CF1FED100B6369E /* Collectibles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Collectibles.entitlements; sourceTree = "<group>"; };
+		865799272CF1FED100B6369E /* CollectiblesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiblesApp.swift; sourceTree = "<group>"; };
+		865799312CF200A900B6369E /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
+		865799322CF200A900B6369E /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
+		865799332CF200A900B6369E /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		865799342CF200A900B6369E /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		865799362CF200A900B6369E /* AlertPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentation.swift; sourceTree = "<group>"; };
+		865799372CF200A900B6369E /* Button+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+Styles.swift"; sourceTree = "<group>"; };
+		865799382CF200A900B6369E /* GradientBackgorund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgorund.swift; sourceTree = "<group>"; };
+		865799392CF200A900B6369E /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		8657993A2CF200A900B6369E /* PageTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTabBar.swift; sourceTree = "<group>"; };
+		8657993B2CF200A900B6369E /* ProgressView+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProgressView+Styles.swift"; sourceTree = "<group>"; };
+		8657993C2CF200A900B6369E /* SearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		8657993D2CF200A900B6369E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		8657993E2CF200A900B6369E /* TagLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLayout.swift; sourceTree = "<group>"; };
+		8657993F2CF200A900B6369E /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		865799412CF200A900B6369E /* Combine+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combine+Extension.swift"; sourceTree = "<group>"; };
+		865799422CF200A900B6369E /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		865799442CF200A900B6369E /* APIRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestBody.swift; sourceTree = "<group>"; };
+		865799452CF200A900B6369E /* RestAPITransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestAPITransport.swift; sourceTree = "<group>"; };
+		865799472CF200A900B6369E /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		865799492CF200A900B6369E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		8657994A2CF200A900B6369E /* GlobalDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalDefinitions.swift; sourceTree = "<group>"; };
+		8657994B2CF200A900B6369E /* NumberLaunches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberLaunches.swift; sourceTree = "<group>"; };
+		8657994C2CF200A900B6369E /* Scalable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scalable.swift; sourceTree = "<group>"; };
+		8657994D2CF200A900B6369E /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		8657994E2CF200A900B6369E /* TextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAttributes.swift; sourceTree = "<group>"; };
+		865799502CF200A900B6369E /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		865799512CF200A900B6369E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		865799532CF200A900B6369E /* DetailsTabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTabItem.swift; sourceTree = "<group>"; };
+		865799552CF200A900B6369E /* ConfirmDeleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDeleteView.swift; sourceTree = "<group>"; };
+		865799562CF200A900B6369E /* DetailsFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsFooterView.swift; sourceTree = "<group>"; };
+		865799572CF200A900B6369E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		865799582CF200A900B6369E /* ParallelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelCardView.swift; sourceTree = "<group>"; };
+		865799592CF200A900B6369E /* ParallelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallelsView.swift; sourceTree = "<group>"; };
+		8657995A2CF200A900B6369E /* SalesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesView.swift; sourceTree = "<group>"; };
+		8657995C2CF200A900B6369E /* CardDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDescriptionView.swift; sourceTree = "<group>"; };
+		8657995D2CF200A900B6369E /* CardDescriptionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDescriptionViewModel.swift; sourceTree = "<group>"; };
+		8657995F2CF200A900B6369E /* ManualSearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSearchableView.swift; sourceTree = "<group>"; };
+		865799612CF200A900B6369E /* CardSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSearchViewModel.swift; sourceTree = "<group>"; };
+		865799622CF200A900B6369E /* ManualCardSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualCardSearchView.swift; sourceTree = "<group>"; };
+		865799642CF200A900B6369E /* CardIdentifierMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIdentifierMethodView.swift; sourceTree = "<group>"; };
+		865799652CF200A900B6369E /* CardIdentifierMethodViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIdentifierMethodViewModel.swift; sourceTree = "<group>"; };
+		865799672CF200A900B6369E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		865799682CF200A900B6369E /* CardScannerTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerTabBar.swift; sourceTree = "<group>"; };
+		8657996A2CF200A900B6369E /* CardScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerView.swift; sourceTree = "<group>"; };
+		8657996B2CF200A900B6369E /* CardScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerViewModel.swift; sourceTree = "<group>"; };
+		8657996D2CF200A900B6369E /* DetectCardErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectCardErrorAlert.swift; sourceTree = "<group>"; };
+		8657996F2CF200A900B6369E /* CardScannedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannedImageView.swift; sourceTree = "<group>"; };
+		865799702CF200A900B6369E /* CardScannedImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannedImageViewModel.swift; sourceTree = "<group>"; };
+		865799742CF200A900B6369E /* CategoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListView.swift; sourceTree = "<group>"; };
+		865799752CF200A900B6369E /* CategoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewModel.swift; sourceTree = "<group>"; };
+		865799772CF200A900B6369E /* CollectionLayoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLayoutType.swift; sourceTree = "<group>"; };
+		865799782CF200A900B6369E /* CollectionTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTab.swift; sourceTree = "<group>"; };
+		865799792CF200A900B6369E /* TotalPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalPriceModel.swift; sourceTree = "<group>"; };
+		8657997B2CF200A900B6369E /* ScannedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedListView.swift; sourceTree = "<group>"; };
+		8657997C2CF200A900B6369E /* ScannedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedListViewModel.swift; sourceTree = "<group>"; };
+		8657997E2CF200A900B6369E /* CardCollectionEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionEmptyView.swift; sourceTree = "<group>"; };
+		8657997F2CF200A900B6369E /* CardGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGridView.swift; sourceTree = "<group>"; };
+		865799802CF200A900B6369E /* CollectionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSettingsView.swift; sourceTree = "<group>"; };
+		865799812CF200A900B6369E /* CollectionTotalHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTotalHeader.swift; sourceTree = "<group>"; };
+		865799832CF200A900B6369E /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
+		865799842CF200A900B6369E /* WishListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewModel.swift; sourceTree = "<group>"; };
+		865799862CF200A900B6369E /* CardCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionView.swift; sourceTree = "<group>"; };
+		865799872CF200A900B6369E /* CardCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewModel.swift; sourceTree = "<group>"; };
+		865799892CF200A900B6369E /* ErrorScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorScreenView.swift; sourceTree = "<group>"; };
+		8657998B2CF200A900B6369E /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		8657998D2CF200A900B6369E /* FiltersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersView.swift; sourceTree = "<group>"; };
+		8657998E2CF200A900B6369E /* FiltersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewModel.swift; sourceTree = "<group>"; };
+		865799902CF200A900B6369E /* HomeViewCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCellType.swift; sourceTree = "<group>"; };
+		865799922CF200A900B6369E /* PriceFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceFilters.swift; sourceTree = "<group>"; };
+		865799942CF200A900B6369E /* PriceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartView.swift; sourceTree = "<group>"; };
+		865799952CF200A900B6369E /* PriceChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceChartViewModel.swift; sourceTree = "<group>"; };
+		865799972CF200A900B6369E /* HomeAliasList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAliasList.swift; sourceTree = "<group>"; };
+		865799982CF200A900B6369E /* HomeCardScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCardScannerView.swift; sourceTree = "<group>"; };
+		865799992CF200A900B6369E /* HomeSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchable.swift; sourceTree = "<group>"; };
+		8657999A2CF200A900B6369E /* OtherCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherCardView.swift; sourceTree = "<group>"; };
+		8657999B2CF200A900B6369E /* RecommendedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedCardView.swift; sourceTree = "<group>"; };
+		8657999D2CF200A900B6369E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8657999E2CF200A900B6369E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		865799A02CF200A900B6369E /* MainTabType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabType.swift; sourceTree = "<group>"; };
+		865799A22CF200A900B6369E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		865799A42CF200A900B6369E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		865799A62CF200A900B6369E /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		865799A72CF200A900B6369E /* PreferencesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewModel.swift; sourceTree = "<group>"; };
+		865799A92CF200A900B6369E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		865799AB2CF200A900B6369E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		865799AC2CF200A900B6369E /* OnboardingPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageItem.swift; sourceTree = "<group>"; };
+		865799AE2CF200A900B6369E /* OnboardingCardView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView1.swift; sourceTree = "<group>"; };
+		865799AF2CF200A900B6369E /* OnboardingCardView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView2.swift; sourceTree = "<group>"; };
+		865799B02CF200A900B6369E /* OnboardingCardView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView3.swift; sourceTree = "<group>"; };
+		865799B12CF200A900B6369E /* OnboardingCardView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView4.swift; sourceTree = "<group>"; };
+		865799B22CF200A900B6369E /* OnboardingCardView5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView5.swift; sourceTree = "<group>"; };
+		865799B32CF200A900B6369E /* OnboardingPageIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageIndicatorView.swift; sourceTree = "<group>"; };
+		865799B52CF200A900B6369E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		865799B62CF200A900B6369E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		865799B82CF200A900B6369E /* PaygateProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateProduct.swift; sourceTree = "<group>"; };
+		865799BA2CF200A900B6369E /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		865799BB2CF200A900B6369E /* PaygateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateInteractor.swift; sourceTree = "<group>"; };
+		865799BD2CF200A900B6369E /* PaygateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateView.swift; sourceTree = "<group>"; };
+		865799BE2CF200A900B6369E /* PaygateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaygateViewModel.swift; sourceTree = "<group>"; };
+		865799C02CF200A900B6369E /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		865799C12CF200A900B6369E /* RootViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewManager.swift; sourceTree = "<group>"; };
+		865799C32CF200A900B6369E /* SplashReceiptValidationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashReceiptValidationObserver.swift; sourceTree = "<group>"; };
+		865799C52CF200A900B6369E /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		865799C82CF200A900B6369E /* CardCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCategory.swift; sourceTree = "<group>"; };
+		865799C92CF200A900B6369E /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
+		865799CA2CF200A900B6369E /* CardDiscoverResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDiscoverResponse.swift; sourceTree = "<group>"; };
+		865799CB2CF200A900B6369E /* CardUploadResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUploadResponse.swift; sourceTree = "<group>"; };
+		865799CC2CF200A900B6369E /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		865799CE2CF200A900B6369E /* CardDetailsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailsRequest.swift; sourceTree = "<group>"; };
+		865799CF2CF200A900B6369E /* CategoriesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesRequest.swift; sourceTree = "<group>"; };
+		865799D02CF200A900B6369E /* DiscoverRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverRequest.swift; sourceTree = "<group>"; };
+		865799D12CF200A900B6369E /* GradesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesRequest.swift; sourceTree = "<group>"; };
+		865799D32CF200A900B6369E /* CardsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsManager.swift; sourceTree = "<group>"; };
+		865799D52CF200A900B6369E /* NavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		865799D72CF200A900B6369E /* CardDiscover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDiscover.swift; sourceTree = "<group>"; };
+		865799D82CF200A900B6369E /* CardOtherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardOtherModel.swift; sourceTree = "<group>"; };
+		865799D92CF200A900B6369E /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		865799DA2CF200A900B6369E /* PriceReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceReport.swift; sourceTree = "<group>"; };
+		865799DB2CF200A900B6369E /* ProfileCollectionCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionCards.swift; sourceTree = "<group>"; };
+		865799DC2CF200A900B6369E /* ProfileInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoModel.swift; sourceTree = "<group>"; };
+		865799DD2CF200A900B6369E /* ProfileScannedCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScannedCards.swift; sourceTree = "<group>"; };
+		865799DF2CF200A900B6369E /* HomeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRequest.swift; sourceTree = "<group>"; };
+		865799E02CF200A900B6369E /* ProfileAddCardRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAddCardRequest.swift; sourceTree = "<group>"; };
+		865799E12CF200A900B6369E /* ProfileAttributesRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAttributesRequest.swift; sourceTree = "<group>"; };
+		865799E22CF200A900B6369E /* ProfileBindingRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBindingRequest.swift; sourceTree = "<group>"; };
+		865799E32CF200A900B6369E /* ProfileCollectionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionRequest.swift; sourceTree = "<group>"; };
+		865799E42CF200A900B6369E /* ProfileCollectionsAvailableRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionsAvailableRequest.swift; sourceTree = "<group>"; };
+		865799E52CF200A900B6369E /* ProfileCreateRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCreateRequest.swift; sourceTree = "<group>"; };
+		865799E62CF200A900B6369E /* ProfileInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoRequest.swift; sourceTree = "<group>"; };
+		865799E72CF200A900B6369E /* ProfileRemoveCardRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRemoveCardRequest.swift; sourceTree = "<group>"; };
+		865799E92CF200A900B6369E /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		865799EA2CF200A900B6369E /* ProfileManagerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManagerMediator.swift; sourceTree = "<group>"; };
+		865799EC2CF200A900B6369E /* IAPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPError.swift; sourceTree = "<group>"; };
+		865799ED2CF200A900B6369E /* IAPErrorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPErrorHelper.swift; sourceTree = "<group>"; };
+		865799EF2CF200A900B6369E /* IAPActionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPActionResult.swift; sourceTree = "<group>"; };
+		865799F02CF200A900B6369E /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		865799F12CF200A900B6369E /* ProductPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPrice.swift; sourceTree = "<group>"; };
+		865799F32CF200A900B6369E /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
+		865799F42CF200A900B6369E /* PurchaseValidationObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseValidationObserver.swift; sourceTree = "<group>"; };
+		865799F62CF200A900B6369E /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		86579A852CF200BF00B6369E /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		86579A862CF200BF00B6369E /* Inter-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.otf"; sourceTree = "<group>"; };
+		86579A872CF200BF00B6369E /* Inter-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.otf"; sourceTree = "<group>"; };
+		86579A882CF200BF00B6369E /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		86579A8E2CF200CC00B6369E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86579A902CF202B900B6369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86579A922CF20C0A00B6369E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A3F679BE878B6A2FE926D9AC /* Pods-Collectibles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collectibles.debug.xcconfig"; path = "Target Support Files/Pods-Collectibles/Pods-Collectibles.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865799042CF1FE0D00B6369E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF106DBC892F91126C226C54 /* Pods_Collectibles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1693D41C4881E234B7C38E20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3F679BE878B6A2FE926D9AC /* Pods-Collectibles.debug.xcconfig */,
+				1DA8F9120E22C965E05E7B08 /* Pods-Collectibles.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		865798FE2CF1FE0C00B6369E = {
+			isa = PBXGroup;
+			children = (
+				8657992D2CF1FF9300B6369E /* Collectibles */,
+				865799082CF1FE0D00B6369E /* Products */,
+				1693D41C4881E234B7C38E20 /* Pods */,
+				BFAC155A5E6AF06318AD0A0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		865799082CF1FE0D00B6369E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865799072CF1FE0D00B6369E /* Collectibles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8657992D2CF1FF9300B6369E /* Collectibles */ = {
+			isa = PBXGroup;
+			children = (
+				86579A902CF202B900B6369E /* Info.plist */,
+				86579A8E2CF200CC00B6369E /* AppDelegate.swift */,
+				865799302CF2007F00B6369E /* Resource */,
+				8657992F2CF2006300B6369E /* Classes */,
+				865799252CF1FED100B6369E /* Assets.xcassets */,
+				865799262CF1FED100B6369E /* Collectibles.entitlements */,
+				865799272CF1FED100B6369E /* CollectiblesApp.swift */,
+				8657992E2CF1FFA600B6369E /* Preview Content */,
+			);
+			path = Collectibles;
+			sourceTree = "<group>";
+		};
+		8657992E2CF1FFA600B6369E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				865799232CF1FED100B6369E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8657992F2CF2006300B6369E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				865799522CF200A900B6369E /* Misc */,
+				865799C72CF200A900B6369E /* Presentation */,
+				865799F82CF200A900B6369E /* Services */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		865799302CF2007F00B6369E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				86579A892CF200BF00B6369E /* Fonts */,
+				86579A912CF20C0A00B6369E /* Localizable.strings */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		865799352CF200A900B6369E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				865799312CF200A900B6369E /* AmplitudeManager.swift */,
+				865799322CF200A900B6369E /* BranchManager.swift */,
+				865799332CF200A900B6369E /* FacebookManager.swift */,
+				865799342CF200A900B6369E /* FirebaseManager.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		865799402CF200A900B6369E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				865799362CF200A900B6369E /* AlertPresentation.swift */,
+				865799372CF200A900B6369E /* Button+Styles.swift */,
+				865799382CF200A900B6369E /* GradientBackgorund.swift */,
+				865799392CF200A900B6369E /* LoaderView.swift */,
+				8657993A2CF200A900B6369E /* PageTabBar.swift */,
+				8657993B2CF200A900B6369E /* ProgressView+Styles.swift */,
+				8657993C2CF200A900B6369E /* SearchField.swift */,
+				8657993D2CF200A900B6369E /* SearchView.swift */,
+				8657993E2CF200A900B6369E /* TagLayout.swift */,
+				8657993F2CF200A900B6369E /* TagView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		865799432CF200A900B6369E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				865799412CF200A900B6369E /* Combine+Extension.swift */,
+				865799422CF200A900B6369E /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		865799462CF200A900B6369E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				865799442CF200A900B6369E /* APIRequestBody.swift */,
+				865799452CF200A900B6369E /* RestAPITransport.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		865799482CF200A900B6369E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				865799472CF200A900B6369E /* NetworkError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		8657994F2CF200A900B6369E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				865799482CF200A900B6369E /* Error */,
+				865799492CF200A900B6369E /* Fonts.swift */,
+				8657994A2CF200A900B6369E /* GlobalDefinitions.swift */,
+				8657994B2CF200A900B6369E /* NumberLaunches.swift */,
+				8657994C2CF200A900B6369E /* Scalable.swift */,
+				8657994D2CF200A900B6369E /* ScreenSize.swift */,
+				8657994E2CF200A900B6369E /* TextAttributes.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		865799522CF200A900B6369E /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				865799352CF200A900B6369E /* Analytics */,
+				865799402CF200A900B6369E /* Components */,
+				865799432CF200A900B6369E /* Extensions */,
+				865799462CF200A900B6369E /* Network */,
+				8657994F2CF200A900B6369E /* Utils */,
+				865799502CF200A900B6369E /* Appearance.swift */,
+				865799512CF200A900B6369E /* CameraManager.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		865799542CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799532CF200A900B6369E /* DetailsTabItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8657995B2CF200A900B6369E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865799552CF200A900B6369E /* ConfirmDeleteView.swift */,
+				865799562CF200A900B6369E /* DetailsFooterView.swift */,
+				865799572CF200A900B6369E /* DetailsView.swift */,
+				865799582CF200A900B6369E /* ParallelCardView.swift */,
+				865799592CF200A900B6369E /* ParallelsView.swift */,
+				8657995A2CF200A900B6369E /* SalesView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8657995E2CF200A900B6369E /* CardDescription */ = {
+			isa = PBXGroup;
+			children = (
+				865799542CF200A900B6369E /* Model */,
+				8657995B2CF200A900B6369E /* View */,
+				8657995C2CF200A900B6369E /* CardDescriptionView.swift */,
+				8657995D2CF200A900B6369E /* CardDescriptionViewModel.swift */,
+			);
+			path = CardDescription;
+			sourceTree = "<group>";
+		};
+		865799602CF200A900B6369E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8657995F2CF200A900B6369E /* ManualSearchableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865799632CF200A900B6369E /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				865799602CF200A900B6369E /* Views */,
+				865799612CF200A900B6369E /* CardSearchViewModel.swift */,
+				865799622CF200A900B6369E /* ManualCardSearchView.swift */,
+			);
+			path = Manual;
+			sourceTree = "<group>";
+		};
+		865799662CF200A900B6369E /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				865799642CF200A900B6369E /* CardIdentifierMethodView.swift */,
+				865799652CF200A900B6369E /* CardIdentifierMethodViewModel.swift */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		865799692CF200A900B6369E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865799672CF200A900B6369E /* CameraView.swift */,
+				865799682CF200A900B6369E /* CardScannerTabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8657996C2CF200A900B6369E /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				865799692CF200A900B6369E /* View */,
+				8657996A2CF200A900B6369E /* CardScannerView.swift */,
+				8657996B2CF200A900B6369E /* CardScannerViewModel.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		8657996E2CF200A900B6369E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8657996D2CF200A900B6369E /* DetectCardErrorAlert.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		865799712CF200A900B6369E /* ScannedImage */ = {
+			isa = PBXGroup;
+			children = (
+				8657996E2CF200A900B6369E /* View */,
+				8657996F2CF200A900B6369E /* CardScannedImageView.swift */,
+				865799702CF200A900B6369E /* CardScannedImageViewModel.swift */,
+			);
+			path = ScannedImage;
+			sourceTree = "<group>";
+		};
+		865799722CF200A900B6369E /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				8657996C2CF200A900B6369E /* Camera */,
+				865799712CF200A900B6369E /* ScannedImage */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		865799732CF200A900B6369E /* CardIdentifier */ = {
+			isa = PBXGroup;
+			children = (
+				865799632CF200A900B6369E /* Manual */,
+				865799662CF200A900B6369E /* Method */,
+				865799722CF200A900B6369E /* Scanner */,
+			);
+			path = CardIdentifier;
+			sourceTree = "<group>";
+		};
+		865799762CF200A900B6369E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				865799742CF200A900B6369E /* CategoryListView.swift */,
+				865799752CF200A900B6369E /* CategoryListViewModel.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8657997A2CF200A900B6369E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				865799772CF200A900B6369E /* CollectionLayoutType.swift */,
+				865799782CF200A900B6369E /* CollectionTab.swift */,
+				865799792CF200A900B6369E /* TotalPriceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8657997D2CF200A900B6369E /* ScannedList */ = {
+			isa = PBXGroup;
+			children = (
+				8657997B2CF200A900B6369E /* ScannedListView.swift */,
+				8657997C2CF200A900B6369E /* ScannedListViewModel.swift */,
+			);
+			path = ScannedList;
+			sourceTree = "<group>";
+		};
+		865799822CF200A900B6369E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8657997E2CF200A900B6369E /* CardCollectionEmptyView.swift */,
+				8657997F2CF200A900B6369E /* CardGridView.swift */,
+				865799802CF200A900B6369E /* CollectionSettingsView.swift */,
+				865799812CF200A900B6369E /* CollectionTotalHeader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865799852CF200A900B6369E /* WishList */ = {
+			isa = PBXGroup;
+			children = (
+				865799832CF200A900B6369E /* WishListView.swift */,
+				865799842CF200A900B6369E /* WishListViewModel.swift */,
+			);
+			path = WishList;
+			sourceTree = "<group>";
+		};
+		865799882CF200A900B6369E /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				8657997A2CF200A900B6369E /* Models */,
+				8657997D2CF200A900B6369E /* ScannedList */,
+				865799822CF200A900B6369E /* Views */,
+				865799852CF200A900B6369E /* WishList */,
+				865799862CF200A900B6369E /* CardCollectionView.swift */,
+				865799872CF200A900B6369E /* CardCollectionViewModel.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		8657998A2CF200A900B6369E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				865799892CF200A900B6369E /* ErrorScreenView.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		8657998C2CF200A900B6369E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8657998B2CF200A900B6369E /* Filters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8657998F2CF200A900B6369E /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				8657998C2CF200A900B6369E /* Models */,
+				8657998D2CF200A900B6369E /* FiltersView.swift */,
+				8657998E2CF200A900B6369E /* FiltersViewModel.swift */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		865799912CF200A900B6369E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				865799902CF200A900B6369E /* HomeViewCellType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865799932CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799922CF200A900B6369E /* PriceFilters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865799962CF200A900B6369E /* PriceChartView */ = {
+			isa = PBXGroup;
+			children = (
+				865799932CF200A900B6369E /* Model */,
+				865799942CF200A900B6369E /* PriceChartView.swift */,
+				865799952CF200A900B6369E /* PriceChartViewModel.swift */,
+			);
+			path = PriceChartView;
+			sourceTree = "<group>";
+		};
+		8657999C2CF200A900B6369E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				865799962CF200A900B6369E /* PriceChartView */,
+				865799972CF200A900B6369E /* HomeAliasList.swift */,
+				865799982CF200A900B6369E /* HomeCardScannerView.swift */,
+				865799992CF200A900B6369E /* HomeSearchable.swift */,
+				8657999A2CF200A900B6369E /* OtherCardView.swift */,
+				8657999B2CF200A900B6369E /* RecommendedCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8657999F2CF200A900B6369E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				865799912CF200A900B6369E /* Models */,
+				8657999C2CF200A900B6369E /* Views */,
+				8657999D2CF200A900B6369E /* HomeView.swift */,
+				8657999E2CF200A900B6369E /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		865799A12CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799A02CF200A900B6369E /* MainTabType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865799A32CF200A900B6369E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				865799A22CF200A900B6369E /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		865799A52CF200A900B6369E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				865799A12CF200A900B6369E /* Model */,
+				865799A32CF200A900B6369E /* View */,
+				865799A42CF200A900B6369E /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		865799A82CF200A900B6369E /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				865799A62CF200A900B6369E /* PreferencesView.swift */,
+				865799A72CF200A900B6369E /* PreferencesViewModel.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		865799AA2CF200A900B6369E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				865799A82CF200A900B6369E /* Preferences */,
+				865799A92CF200A900B6369E /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		865799AD2CF200A900B6369E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				865799AB2CF200A900B6369E /* Game.swift */,
+				865799AC2CF200A900B6369E /* OnboardingPageItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865799B42CF200A900B6369E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				865799AE2CF200A900B6369E /* OnboardingCardView1.swift */,
+				865799AF2CF200A900B6369E /* OnboardingCardView2.swift */,
+				865799B02CF200A900B6369E /* OnboardingCardView3.swift */,
+				865799B12CF200A900B6369E /* OnboardingCardView4.swift */,
+				865799B22CF200A900B6369E /* OnboardingCardView5.swift */,
+				865799B32CF200A900B6369E /* OnboardingPageIndicatorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		865799B72CF200A900B6369E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				865799AD2CF200A900B6369E /* Models */,
+				865799B42CF200A900B6369E /* Views */,
+				865799B52CF200A900B6369E /* OnboardingView.swift */,
+				865799B62CF200A900B6369E /* OnboardingViewModel.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		865799B92CF200A900B6369E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				865799B82CF200A900B6369E /* PaygateProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865799BC2CF200A900B6369E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				865799BA2CF200A900B6369E /* Currency.swift */,
+				865799BB2CF200A900B6369E /* PaygateInteractor.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		865799BF2CF200A900B6369E /* Paygate */ = {
+			isa = PBXGroup;
+			children = (
+				865799B92CF200A900B6369E /* Models */,
+				865799BC2CF200A900B6369E /* Utils */,
+				865799BD2CF200A900B6369E /* PaygateView.swift */,
+				865799BE2CF200A900B6369E /* PaygateViewModel.swift */,
+			);
+			path = Paygate;
+			sourceTree = "<group>";
+		};
+		865799C22CF200A900B6369E /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				865799C02CF200A900B6369E /* RootView.swift */,
+				865799C12CF200A900B6369E /* RootViewManager.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		865799C42CF200A900B6369E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				865799C32CF200A900B6369E /* SplashReceiptValidationObserver.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		865799C62CF200A900B6369E /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				865799C42CF200A900B6369E /* Utils */,
+				865799C52CF200A900B6369E /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		865799C72CF200A900B6369E /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8657995E2CF200A900B6369E /* CardDescription */,
+				865799732CF200A900B6369E /* CardIdentifier */,
+				865799762CF200A900B6369E /* Category */,
+				865799882CF200A900B6369E /* Collection */,
+				8657998A2CF200A900B6369E /* Error */,
+				8657998F2CF200A900B6369E /* Filters */,
+				8657999F2CF200A900B6369E /* Home */,
+				865799A52CF200A900B6369E /* Main */,
+				865799AA2CF200A900B6369E /* Menu */,
+				865799B72CF200A900B6369E /* Onboarding */,
+				865799BF2CF200A900B6369E /* Paygate */,
+				865799C22CF200A900B6369E /* Root */,
+				865799C62CF200A900B6369E /* Splash */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		865799CD2CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799C82CF200A900B6369E /* CardCategory.swift */,
+				865799C92CF200A900B6369E /* CardDetails.swift */,
+				865799CA2CF200A900B6369E /* CardDiscoverResponse.swift */,
+				865799CB2CF200A900B6369E /* CardUploadResponse.swift */,
+				865799CC2CF200A900B6369E /* Grade.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865799D22CF200A900B6369E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				865799CE2CF200A900B6369E /* CardDetailsRequest.swift */,
+				865799CF2CF200A900B6369E /* CategoriesRequest.swift */,
+				865799D02CF200A900B6369E /* DiscoverRequest.swift */,
+				865799D12CF200A900B6369E /* GradesRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		865799D42CF200A900B6369E /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				865799CD2CF200A900B6369E /* Model */,
+				865799D22CF200A900B6369E /* Request */,
+				865799D32CF200A900B6369E /* CardsManager.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		865799D62CF200A900B6369E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				865799D52CF200A900B6369E /* NavigationManager.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		865799DE2CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799D72CF200A900B6369E /* CardDiscover.swift */,
+				865799D82CF200A900B6369E /* CardOtherModel.swift */,
+				865799D92CF200A900B6369E /* HomeModel.swift */,
+				865799DA2CF200A900B6369E /* PriceReport.swift */,
+				865799DB2CF200A900B6369E /* ProfileCollectionCards.swift */,
+				865799DC2CF200A900B6369E /* ProfileInfoModel.swift */,
+				865799DD2CF200A900B6369E /* ProfileScannedCards.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865799E82CF200A900B6369E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				865799DF2CF200A900B6369E /* HomeRequest.swift */,
+				865799E02CF200A900B6369E /* ProfileAddCardRequest.swift */,
+				865799E12CF200A900B6369E /* ProfileAttributesRequest.swift */,
+				865799E22CF200A900B6369E /* ProfileBindingRequest.swift */,
+				865799E32CF200A900B6369E /* ProfileCollectionRequest.swift */,
+				865799E42CF200A900B6369E /* ProfileCollectionsAvailableRequest.swift */,
+				865799E52CF200A900B6369E /* ProfileCreateRequest.swift */,
+				865799E62CF200A900B6369E /* ProfileInfoRequest.swift */,
+				865799E72CF200A900B6369E /* ProfileRemoveCardRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		865799EB2CF200A900B6369E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				865799DE2CF200A900B6369E /* Model */,
+				865799E82CF200A900B6369E /* Request */,
+				865799E92CF200A900B6369E /* ProfileManager.swift */,
+				865799EA2CF200A900B6369E /* ProfileManagerMediator.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		865799EE2CF200A900B6369E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				865799EC2CF200A900B6369E /* IAPError.swift */,
+				865799ED2CF200A900B6369E /* IAPErrorHelper.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		865799F22CF200A900B6369E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				865799EF2CF200A900B6369E /* IAPActionResult.swift */,
+				865799F02CF200A900B6369E /* IAPProduct.swift */,
+				865799F12CF200A900B6369E /* ProductPrice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		865799F52CF200A900B6369E /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				865799EE2CF200A900B6369E /* Error */,
+				865799F22CF200A900B6369E /* Model */,
+				865799F32CF200A900B6369E /* IAPManager.swift */,
+				865799F42CF200A900B6369E /* PurchaseValidationObserver.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
+		865799F72CF200A900B6369E /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				865799F62CF200A900B6369E /* SessionManager.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		865799F82CF200A900B6369E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				865799D42CF200A900B6369E /* Cards */,
+				865799D62CF200A900B6369E /* Navigation */,
+				865799EB2CF200A900B6369E /* Profile */,
+				865799F52CF200A900B6369E /* Purchase */,
+				865799F72CF200A900B6369E /* Session */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		86579A892CF200BF00B6369E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				86579A852CF200BF00B6369E /* Inter-Bold.otf */,
+				86579A862CF200BF00B6369E /* Inter-Medium.otf */,
+				86579A872CF200BF00B6369E /* Inter-Regular.otf */,
+				86579A882CF200BF00B6369E /* Inter-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BFAC155A5E6AF06318AD0A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59B6B3E8FF8B09BF1725BCEA /* Pods_Collectibles.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865799062CF1FE0D00B6369E /* Collectibles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865799162CF1FE0D00B6369E /* Build configuration list for PBXNativeTarget "Collectibles" */;
+			buildPhases = (
+				52D9E4D9BA5FA6714600888A /* [CP] Check Pods Manifest.lock */,
+				865799032CF1FE0D00B6369E /* Sources */,
+				865799042CF1FE0D00B6369E /* Frameworks */,
+				865799052CF1FE0D00B6369E /* Resources */,
+				DFA87AE37A7B80F9B3E42C2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Collectibles;
+			productName = Collectibles;
+			productReference = 865799072CF1FE0D00B6369E /* Collectibles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865798FF2CF1FE0C00B6369E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					865799062CF1FE0D00B6369E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 865799022CF1FE0C00B6369E /* Build configuration list for PBXProject "Collectibles" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865798FE2CF1FE0C00B6369E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 865799082CF1FE0D00B6369E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865799062CF1FE0D00B6369E /* Collectibles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865799052CF1FE0D00B6369E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86579A8A2CF200BF00B6369E /* Inter-Regular.otf in Resources */,
+				86579A8B2CF200BF00B6369E /* Inter-SemiBold.otf in Resources */,
+				86579A8C2CF200BF00B6369E /* Inter-Bold.otf in Resources */,
+				86579A932CF20C0A00B6369E /* Localizable.strings in Resources */,
+				86579A8D2CF200BF00B6369E /* Inter-Medium.otf in Resources */,
+				8657992B2CF1FED100B6369E /* Preview Assets.xcassets in Resources */,
+				8657992C2CF1FED100B6369E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52D9E4D9BA5FA6714600888A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Collectibles-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFA87AE37A7B80F9B3E42C2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collectibles/Pods-Collectibles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Collectibles/Pods-Collectibles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Collectibles/Pods-Collectibles-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865799032CF1FE0D00B6369E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865799292CF1FED100B6369E /* CollectiblesApp.swift in Sources */,
+				865799F92CF200A900B6369E /* Fonts.swift in Sources */,
+				865799FA2CF200A900B6369E /* AmplitudeManager.swift in Sources */,
+				865799FB2CF200A900B6369E /* SearchView.swift in Sources */,
+				865799FC2CF200A900B6369E /* SessionManager.swift in Sources */,
+				865799FD2CF200A900B6369E /* IAPProduct.swift in Sources */,
+				865799FE2CF200A900B6369E /* Scalable.swift in Sources */,
+				865799FF2CF200A900B6369E /* CardOtherModel.swift in Sources */,
+				86579A002CF200A900B6369E /* DiscoverRequest.swift in Sources */,
+				86579A012CF200A900B6369E /* Game.swift in Sources */,
+				86579A022CF200A900B6369E /* CollectionSettingsView.swift in Sources */,
+				86579A032CF200A900B6369E /* WishListViewModel.swift in Sources */,
+				86579A042CF200A900B6369E /* OnboardingCardView2.swift in Sources */,
+				86579A052CF200A900B6369E /* Filters.swift in Sources */,
+				86579A062CF200A900B6369E /* Currency.swift in Sources */,
+				86579A072CF200A900B6369E /* CollectionTab.swift in Sources */,
+				86579A082CF200A900B6369E /* MainTabType.swift in Sources */,
+				86579A092CF200A900B6369E /* HomeRequest.swift in Sources */,
+				86579A0A2CF200A900B6369E /* RecommendedCardView.swift in Sources */,
+				86579A0B2CF200A900B6369E /* HomeSearchable.swift in Sources */,
+				86579A0C2CF200A900B6369E /* PageTabBar.swift in Sources */,
+				86579A0D2CF200A900B6369E /* CategoryListViewModel.swift in Sources */,
+				86579A0E2CF200A900B6369E /* ProfileScannedCards.swift in Sources */,
+				86579A0F2CF200A900B6369E /* DetailsView.swift in Sources */,
+				86579A102CF200A900B6369E /* OnboardingPageIndicatorView.swift in Sources */,
+				86579A112CF200A900B6369E /* SalesView.swift in Sources */,
+				86579A122CF200A900B6369E /* MenuView.swift in Sources */,
+				86579A132CF200A900B6369E /* PurchaseValidationObserver.swift in Sources */,
+				86579A142CF200A900B6369E /* ProfileInfoRequest.swift in Sources */,
+				86579A152CF200A900B6369E /* CardUploadResponse.swift in Sources */,
+				86579A162CF200A900B6369E /* String+Extension.swift in Sources */,
+				86579A172CF200A900B6369E /* PriceReport.swift in Sources */,
+				86579A182CF200A900B6369E /* GlobalDefinitions.swift in Sources */,
+				86579A192CF200A900B6369E /* AlertPresentation.swift in Sources */,
+				86579A1A2CF200A900B6369E /* GradesRequest.swift in Sources */,
+				86579A1B2CF200A900B6369E /* CardScannerView.swift in Sources */,
+				86579A1C2CF200A900B6369E /* FirebaseManager.swift in Sources */,
+				86579A1D2CF200A900B6369E /* CardCollectionViewModel.swift in Sources */,
+				86579A1E2CF200A900B6369E /* ManualSearchableView.swift in Sources */,
+				86579A1F2CF200A900B6369E /* ProfileInfoModel.swift in Sources */,
+				86579A202CF200A900B6369E /* ProductPrice.swift in Sources */,
+				86579A212CF200A900B6369E /* ProfileAddCardRequest.swift in Sources */,
+				86579A8F2CF200CC00B6369E /* AppDelegate.swift in Sources */,
+				86579A222CF200A900B6369E /* HomeViewCellType.swift in Sources */,
+				86579A232CF200A900B6369E /* PaygateView.swift in Sources */,
+				86579A242CF200A900B6369E /* ScreenSize.swift in Sources */,
+				86579A252CF200A900B6369E /* CardDescriptionViewModel.swift in Sources */,
+				86579A262CF200A900B6369E /* HomeAliasList.swift in Sources */,
+				86579A272CF200A900B6369E /* CardDiscover.swift in Sources */,
+				86579A282CF200A900B6369E /* HomeViewModel.swift in Sources */,
+				86579A292CF200A900B6369E /* CardCollectionEmptyView.swift in Sources */,
+				86579A2A2CF200A900B6369E /* ScannedListView.swift in Sources */,
+				86579A2B2CF200A900B6369E /* TagView.swift in Sources */,
+				86579A2C2CF200A900B6369E /* IAPErrorHelper.swift in Sources */,
+				86579A2D2CF200A900B6369E /* PriceChartViewModel.swift in Sources */,
+				86579A2E2CF200A900B6369E /* CardScannerTabBar.swift in Sources */,
+				86579A2F2CF200A900B6369E /* RestAPITransport.swift in Sources */,
+				86579A302CF200A900B6369E /* ProfileCollectionsAvailableRequest.swift in Sources */,
+				86579A312CF200A900B6369E /* CardScannerViewModel.swift in Sources */,
+				86579A322CF200A900B6369E /* IAPManager.swift in Sources */,
+				86579A332CF200A900B6369E /* PaygateProduct.swift in Sources */,
+				86579A342CF200A900B6369E /* Appearance.swift in Sources */,
+				86579A352CF200A900B6369E /* OnboardingCardView4.swift in Sources */,
+				86579A362CF200A900B6369E /* ProfileRemoveCardRequest.swift in Sources */,
+				86579A372CF200A900B6369E /* ProfileAttributesRequest.swift in Sources */,
+				86579A382CF200A900B6369E /* CameraView.swift in Sources */,
+				86579A392CF200A900B6369E /* CardDetailsRequest.swift in Sources */,
+				86579A3A2CF200A900B6369E /* ParallelsView.swift in Sources */,
+				86579A3B2CF200A900B6369E /* CardDetails.swift in Sources */,
+				86579A3C2CF200A900B6369E /* MainTabView.swift in Sources */,
+				86579A3D2CF200A900B6369E /* IAPActionResult.swift in Sources */,
+				86579A3E2CF200A900B6369E /* NumberLaunches.swift in Sources */,
+				86579A3F2CF200A900B6369E /* FiltersViewModel.swift in Sources */,
+				86579A402CF200A900B6369E /* ProfileCollectionRequest.swift in Sources */,
+				86579A412CF200A900B6369E /* CardsManager.swift in Sources */,
+				86579A422CF200A900B6369E /* CardGridView.swift in Sources */,
+				86579A432CF200A900B6369E /* TagLayout.swift in Sources */,
+				86579A442CF200A900B6369E /* DetailsTabItem.swift in Sources */,
+				86579A452CF200A900B6369E /* PaygateViewModel.swift in Sources */,
+				86579A462CF200A900B6369E /* CardDiscoverResponse.swift in Sources */,
+				86579A472CF200A900B6369E /* OnboardingPageItem.swift in Sources */,
+				86579A482CF200A900B6369E /* CollectionTotalHeader.swift in Sources */,
+				86579A492CF200A900B6369E /* CardCollectionView.swift in Sources */,
+				86579A4A2CF200A900B6369E /* RootView.swift in Sources */,
+				86579A4B2CF200A900B6369E /* OnboardingCardView5.swift in Sources */,
+				86579A4C2CF200A900B6369E /* TabBarView.swift in Sources */,
+				86579A4D2CF200A900B6369E /* ProfileManagerMediator.swift in Sources */,
+				86579A4E2CF200A900B6369E /* CategoryListView.swift in Sources */,
+				86579A4F2CF200A900B6369E /* ParallelCardView.swift in Sources */,
+				86579A502CF200A900B6369E /* CategoriesRequest.swift in Sources */,
+				86579A512CF200A900B6369E /* APIRequestBody.swift in Sources */,
+				86579A522CF200A900B6369E /* CardIdentifierMethodViewModel.swift in Sources */,
+				86579A532CF200A900B6369E /* HomeCardScannerView.swift in Sources */,
+				86579A542CF200A900B6369E /* OnboardingCardView3.swift in Sources */,
+				86579A552CF200A900B6369E /* ConfirmDeleteView.swift in Sources */,
+				86579A562CF200A900B6369E /* PriceChartView.swift in Sources */,
+				86579A572CF200A900B6369E /* PreferencesViewModel.swift in Sources */,
+				86579A582CF200A900B6369E /* HomeModel.swift in Sources */,
+				86579A592CF200A900B6369E /* CardScannedImageView.swift in Sources */,
+				86579A5A2CF200A900B6369E /* RootViewManager.swift in Sources */,
+				86579A5B2CF200A900B6369E /* OnboardingViewModel.swift in Sources */,
+				86579A5C2CF200A900B6369E /* TotalPriceModel.swift in Sources */,
+				86579A5D2CF200A900B6369E /* ProfileBindingRequest.swift in Sources */,
+				86579A5E2CF200A900B6369E /* OnboardingView.swift in Sources */,
+				86579A5F2CF200A900B6369E /* SearchField.swift in Sources */,
+				86579A602CF200A900B6369E /* ProfileManager.swift in Sources */,
+				86579A612CF200A900B6369E /* WishListView.swift in Sources */,
+				86579A622CF200A900B6369E /* CardCategory.swift in Sources */,
+				86579A632CF200A900B6369E /* IAPError.swift in Sources */,
+				86579A642CF200A900B6369E /* ScannedListViewModel.swift in Sources */,
+				86579A652CF200A900B6369E /* NetworkError.swift in Sources */,
+				86579A662CF200A900B6369E /* OnboardingCardView1.swift in Sources */,
+				86579A672CF200A900B6369E /* Combine+Extension.swift in Sources */,
+				86579A682CF200A900B6369E /* ProfileCreateRequest.swift in Sources */,
+				86579A692CF200A900B6369E /* PriceFilters.swift in Sources */,
+				86579A6A2CF200A900B6369E /* ErrorScreenView.swift in Sources */,
+				86579A6B2CF200A900B6369E /* CardScannedImageViewModel.swift in Sources */,
+				86579A6C2CF200A900B6369E /* ManualCardSearchView.swift in Sources */,
+				86579A6D2CF200A900B6369E /* TextAttributes.swift in Sources */,
+				86579A6E2CF200A900B6369E /* ProgressView+Styles.swift in Sources */,
+				86579A6F2CF200A900B6369E /* OtherCardView.swift in Sources */,
+				86579A702CF200A900B6369E /* CollectionLayoutType.swift in Sources */,
+				86579A712CF200A900B6369E /* FiltersView.swift in Sources */,
+				86579A722CF200A900B6369E /* Grade.swift in Sources */,
+				86579A732CF200A900B6369E /* CameraManager.swift in Sources */,
+				86579A742CF200A900B6369E /* ProfileCollectionCards.swift in Sources */,
+				86579A752CF200A900B6369E /* NavigationManager.swift in Sources */,
+				86579A762CF200A900B6369E /* CardSearchViewModel.swift in Sources */,
+				86579A772CF200A900B6369E /* Button+Styles.swift in Sources */,
+				86579A782CF200A900B6369E /* DetailsFooterView.swift in Sources */,
+				86579A792CF200A900B6369E /* FacebookManager.swift in Sources */,
+				86579A7A2CF200A900B6369E /* HomeView.swift in Sources */,
+				86579A7B2CF200A900B6369E /* SplashView.swift in Sources */,
+				86579A7C2CF200A900B6369E /* PreferencesView.swift in Sources */,
+				86579A7D2CF200A900B6369E /* LoaderView.swift in Sources */,
+				86579A7E2CF200A900B6369E /* PaygateInteractor.swift in Sources */,
+				86579A7F2CF200A900B6369E /* CardIdentifierMethodView.swift in Sources */,
+				86579A802CF200A900B6369E /* GradientBackgorund.swift in Sources */,
+				86579A812CF200A900B6369E /* SplashReceiptValidationObserver.swift in Sources */,
+				86579A822CF200A900B6369E /* DetectCardErrorAlert.swift in Sources */,
+				86579A832CF200A900B6369E /* BranchManager.swift in Sources */,
+				86579A842CF200A900B6369E /* CardDescriptionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86579A912CF20C0A00B6369E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86579A922CF20C0A00B6369E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865799142CF1FE0D00B6369E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865799152CF1FE0D00B6369E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		865799172CF1FE0D00B6369E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F679BE878B6A2FE926D9AC /* Pods-Collectibles.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Collectibles/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app will access the camera so it can identify your card.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = collectibles.Collectibles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		865799182CF1FE0D00B6369E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA8F9120E22C965E05E7B08 /* Pods-Collectibles.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Collectibles/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app will access the camera so it can identify your card.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = collectibles.Collectibles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865799022CF1FE0C00B6369E /* Build configuration list for PBXProject "Collectibles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865799142CF1FE0D00B6369E /* Debug */,
+				865799152CF1FE0D00B6369E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865799162CF1FE0D00B6369E /* Build configuration list for PBXNativeTarget "Collectibles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865799172CF1FE0D00B6369E /* Debug */,
+				865799182CF1FE0D00B6369E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865798FF2CF1FE0C00B6369E /* Project object */;
+}
