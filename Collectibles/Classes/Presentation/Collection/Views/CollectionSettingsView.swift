@@ -24,10 +24,6 @@ struct CollectionSettingsView: View {
                         .resizable()
                         .frame(width: 24.scale, height: 24.scale)
                 }
-                .background(
-                    layout == currentLayout ? .black : .clear,
-                    in: RoundedRectangle(cornerRadius: 4.scale)
-                )
             }
             
             Spacer()

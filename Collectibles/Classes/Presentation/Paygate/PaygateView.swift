@@ -51,7 +51,7 @@ struct PaygateView: View {
         .animation(.default, value: viewModel.isLoading)
         .padding(.horizontal, 16.scale)
         .frame(maxHeight: .infinity)
-        .background(.black)
+        .gradientBackground()
         .overlay(alignment: .topTrailing) {
             Button(
                 action: dismiss.callAsFunction,

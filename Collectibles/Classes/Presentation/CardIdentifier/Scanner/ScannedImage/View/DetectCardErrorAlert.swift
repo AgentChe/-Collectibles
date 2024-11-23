@@ -52,7 +52,7 @@ struct DetectCardErrorAlert: View {
             .padding(.top, 12.scale)
         }
         .padding(.horizontal, 30.scale)
-        .background(.gradientSubstrate, in: RoundedRectangle(cornerRadius: 16.scale))
+        .background(.main300, in: RoundedRectangle(cornerRadius: 16.scale))
         .overlay {
             RoundedRectangle(cornerRadius: 16.scale)
                 .stroke(.main400, lineWidth: 1.scale)

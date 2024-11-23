@@ -42,7 +42,7 @@ struct CardDescriptionView: View {
             )
         }
         .animation(.default, value: showAlert)
-        .background(.black)
+        .gradientBackground()
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 Button(action: dismiss.callAsFunction) {

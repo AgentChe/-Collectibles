@@ -19,10 +19,10 @@ struct SearchView: View {
             Button(action: { router.push(to: Route.filters($filters)) }) {
                 Image("Home.Settings")
                     .frame(width: 50.scale, height: 50.scale)
-                    .background(.main300, in: Circle())
             }
             .overlay(counterOverlay, alignment: .topTrailing)
             .opacity(isExpanded ? 1 : 0)
+            .buttonStyle(FiltersButtonStyle())
             
             SearchField(searchText: $searchText, isFocused: $isFocused)
                 .padding(.trailing, isExpanded ? 66.scale : 0)
@@ -47,6 +47,13 @@ private extension SearchView {
                 .background(.main100, in: Circle())
                 .offset(y: -10.scale)
         }
+    }
+}
+
+private struct FiltersButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .background(configuration.isPressed ? .main100 : .main300, in: Circle())
     }
 }
 

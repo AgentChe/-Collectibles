@@ -85,7 +85,7 @@
 "Filters.Sort.Hight" = "Price: low to high";
 
 // MARK: Collection
-"Collection.Tab.Scanned" = "Scanned Cards";
+"Collection.Tab.Scanned" = "My cards";
 "Collection.Tab.WishList" = "My Wish List";
 "Collection.Empty.Title" = "Your collection is empty";
 "Collection.Empty.Subtitle" = "Scan your cards to get started";

@@ -31,8 +31,7 @@ struct CardScannerView: View {
                     label: { Image("Scanner.Back") }
                 )
             }
-        }
-        .toolbar {
+            
             ToolbarItem(placement: .topBarTrailing) {
                 Button(
                     action: { viewModel.toogleFlash() },

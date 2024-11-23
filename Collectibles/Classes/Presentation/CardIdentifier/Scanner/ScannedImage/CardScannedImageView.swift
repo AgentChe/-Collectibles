@@ -40,8 +40,6 @@ struct CardScannedImageView: View {
         .overlay(alignment: .bottom, content: {
             build(for: currentState)
         })
-        .navigationBarBackButtonHidden()
-        .gradientBackground()
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
                 Button(action: dismiss.callAsFunction) {
@@ -56,6 +54,7 @@ struct CardScannedImageView: View {
                 }
             }
         }
+        .gradientBackground()
         .onReceive(viewModel.$action) { action in
             switch action {
             case let .step(step):
@@ -79,6 +78,7 @@ struct CardScannedImageView: View {
             )
         }
         .animation(.spring(), value: showAlert)
+        .navigationBarBackButtonHidden()
     }
 }
 

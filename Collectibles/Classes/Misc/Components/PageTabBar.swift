@@ -37,6 +37,11 @@ struct PageTabBar<Tab: TabItemProtocol>: View {
                 )
             }
         }
+        .overlay(alignment: .bottom) {
+            Rectangle()
+                .fill(.main200)
+                .frame(height: 1.scale)
+        }
     }
 }
 

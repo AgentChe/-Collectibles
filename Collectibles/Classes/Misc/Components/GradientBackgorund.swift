@@ -17,7 +17,7 @@ struct GradientBackgorund: ViewModifier {
                     endPoint: .bottomTrailing
                 )
                 .opacity(0.3)
-                .background(.gradientSubstrate)
+                .background(.mono700)
                 .ignoresSafeArea()
             )
     }
