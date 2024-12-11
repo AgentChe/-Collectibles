@@ -81,13 +81,6 @@ private extension CardScannerView {
                     .lineSpacing(4.scale)
                     .foregroundStyle(.white.opacity(0.5))
                 
-                if let url = URL(string: UIApplication.openSettingsURLString) {
-                    Link(destination: url) {
-                        Text("CardScanner.PermissionProblem.Button".localized)
-                    }
-                    .buttonStyle(.button(.primary))
-                    .padding(.top, 20.scale)
-                }
                 Spacer()
             }
             .padding(.horizontal, 32.scale)
