@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860BC2732D301F7000915EFF /* RequestReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860BC2722D301F7000915EFF /* RequestReview.swift */; };
 		865799292CF1FED100B6369E /* CollectiblesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799272CF1FED100B6369E /* CollectiblesApp.swift */; };
 		8657992B2CF1FED100B6369E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799232CF1FED100B6369E /* Preview Assets.xcassets */; };
 		8657992C2CF1FED100B6369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799252CF1FED100B6369E /* Assets.xcassets */; };
@@ -162,6 +163,7 @@
 /* Begin PBXFileReference section */
 		1DA8F9120E22C965E05E7B08 /* Pods-Collectibles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collectibles.release.xcconfig"; path = "Target Support Files/Pods-Collectibles/Pods-Collectibles.release.xcconfig"; sourceTree = "<group>"; };
 		59B6B3E8FF8B09BF1725BCEA /* Pods_Collectibles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Collectibles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		860BC2722D301F7000915EFF /* RequestReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReview.swift; sourceTree = "<group>"; };
 		865799072CF1FE0D00B6369E /* Collectibles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collectibles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		865799232CF1FED100B6369E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		865799252CF1FED100B6369E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -422,6 +424,7 @@
 				8657993D2CF200A900B6369E /* SearchView.swift */,
 				8657993E2CF200A900B6369E /* TagLayout.swift */,
 				8657993F2CF200A900B6369E /* TagView.swift */,
+				860BC2722D301F7000915EFF /* RequestReview.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -1247,6 +1250,7 @@
 				86579A522CF200A900B6369E /* CardIdentifierMethodViewModel.swift in Sources */,
 				86579A532CF200A900B6369E /* HomeCardScannerView.swift in Sources */,
 				86579A542CF200A900B6369E /* OnboardingCardView3.swift in Sources */,
+				860BC2732D301F7000915EFF /* RequestReview.swift in Sources */,
 				86579A552CF200A900B6369E /* ConfirmDeleteView.swift in Sources */,
 				86579A562CF200A900B6369E /* PriceChartView.swift in Sources */,
 				86579A572CF200A900B6369E /* PreferencesViewModel.swift in Sources */,
