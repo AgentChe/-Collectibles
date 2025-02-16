@@ -11,8 +11,8 @@ import NukeUI
 struct CardDescriptionView: View {
     @Environment(\.dismiss) private var dismiss
     @StateObject private var viewModel: CardDescriptionViewModel
-    @State var showAlert: Bool = false
-    @State var selectedTab: DetailsTabItem = .sales
+    @State private var showAlert: Bool = false
+    @State private var selectedTab: DetailsTabItem = .sales
     
     init(id: String, grade: String, collection: CollectionTab) {
         _viewModel = .init(wrappedValue: .init(id: id, grade: grade, collection: collection))
