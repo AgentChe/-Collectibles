@@ -82,7 +82,10 @@ struct FiltersView: View {
             .buttonStyle(.button(.primary))
             
             Button(
-                action: { cacheFilters = .init() },
+                action: {
+                    cacheFilters = .init()
+                    filters = cacheFilters
+                },
                 label: { Text("Filters.Clear") }
             )
             .buttonStyle(.button(.secondary))

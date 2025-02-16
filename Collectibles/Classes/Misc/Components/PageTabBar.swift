@@ -22,7 +22,7 @@ struct PageTabBar<Tab: TabItemProtocol>: View {
     }
     
     var body: some View {
-        HStack {
+        HStack(spacing: 0) {
             ForEach(tabs, id: \.self) { tab in
                 Button(
                     action: { withAnimation { selectedTab = tab } },
@@ -32,15 +32,15 @@ struct PageTabBar<Tab: TabItemProtocol>: View {
                             .foregroundStyle(tab == selectedTab ? .white : .white.opacity(0.5))
                             .padding(.vertical, 8.scale)
                             .frame(maxWidth: .infinity)
+                            .overlay(alignment: .bottom) {
+                                Rectangle()
+                                    .fill(.main200)
+                                    .frame(height: 1.scale)
+                            }
                             .overlay(selector(for: tab), alignment: .bottom)
                     }
                 )
             }
-        }
-        .overlay(alignment: .bottom) {
-            Rectangle()
-                .fill(.main200)
-                .frame(height: 1.scale)
         }
     }
 }
@@ -51,7 +51,7 @@ private extension PageTabBar {
         if selectedTab == tab {
             Rectangle()
                 .fill(.main100)
-                .frame(height: 2.scale)
+                .frame(height: 2)
                 .matchedGeometryEffect(id: "PageTabBar", in: animation)
         }
     }

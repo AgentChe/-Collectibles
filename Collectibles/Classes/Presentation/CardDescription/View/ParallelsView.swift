@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct ParallelsView: View {
+    @EnvironmentObject private var route: NavigationManager
     let cards: [CardDiscover]
+    
     var body: some View {
-        VStack(spacing: 16.scale) {
+        LazyVStack(spacing: 16.scale) {
             ForEach(cards) { card in
-                ParallelCardView(model: card)
+                NavigationLink(value: Route.cardDescription(id: card.cardId, grade: card.grade, collection: .wishList)) {
+                    ParallelCardView(model: card)
+                }
             }
         }
     }

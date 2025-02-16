@@ -157,6 +157,7 @@
 		86579A8D2CF200BF00B6369E /* Inter-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A862CF200BF00B6369E /* Inter-Medium.otf */; };
 		86579A8F2CF200CC00B6369E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86579A8E2CF200CC00B6369E /* AppDelegate.swift */; };
 		86579A932CF20C0A00B6369E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86579A912CF20C0A00B6369E /* Localizable.strings */; };
+		8675671A2D6245DE00628675 /* SearchEmptyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867567192D6245DE00628675 /* SearchEmptyResultView.swift */; };
 		BF106DBC892F91126C226C54 /* Pods_Collectibles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B6B3E8FF8B09BF1725BCEA /* Pods_Collectibles.framework */; };
 /* End PBXBuildFile section */
 
@@ -316,6 +317,7 @@
 		86579A8E2CF200CC00B6369E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86579A902CF202B900B6369E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		86579A922CF20C0A00B6369E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		867567192D6245DE00628675 /* SearchEmptyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEmptyResultView.swift; sourceTree = "<group>"; };
 		A3F679BE878B6A2FE926D9AC /* Pods-Collectibles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Collectibles.debug.xcconfig"; path = "Target Support Files/Pods-Collectibles/Pods-Collectibles.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -720,6 +722,7 @@
 				865799992CF200A900B6369E /* HomeSearchable.swift */,
 				8657999A2CF200A900B6369E /* OtherCardView.swift */,
 				8657999B2CF200A900B6369E /* RecommendedCardView.swift */,
+				867567192D6245DE00628675 /* SearchEmptyResultView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -1273,6 +1276,7 @@
 				86579A682CF200A900B6369E /* ProfileCreateRequest.swift in Sources */,
 				86579A692CF200A900B6369E /* PriceFilters.swift in Sources */,
 				86579A6A2CF200A900B6369E /* ErrorScreenView.swift in Sources */,
+				8675671A2D6245DE00628675 /* SearchEmptyResultView.swift in Sources */,
 				86579A6B2CF200A900B6369E /* CardScannedImageViewModel.swift in Sources */,
 				86579A6C2CF200A900B6369E /* ManualCardSearchView.swift in Sources */,
 				86579A6D2CF200A900B6369E /* TextAttributes.swift in Sources */,
