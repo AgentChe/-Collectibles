@@ -79,7 +79,7 @@ struct GradeView: View {
                 Text(grade.alias)
                     .font(Fonts.Inter.font(size: 14.scale, weight: .w700))
                     .lineSpacing(8.scale)
-                if isSelected, !grade.name.isEmpty {
+                if isSelected, grade.alias != "All" {
                     Text(grade.name)
                         .font(Fonts.Inter.font(size: 14.scale, weight: .w400))
                         .lineSpacing(8.scale)
