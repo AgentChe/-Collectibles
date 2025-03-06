@@ -149,7 +149,6 @@
 		86579A802CF200A900B6369E /* GradientBackgorund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799382CF200A900B6369E /* GradientBackgorund.swift */; };
 		86579A812CF200A900B6369E /* SplashReceiptValidationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799C32CF200A900B6369E /* SplashReceiptValidationObserver.swift */; };
 		86579A822CF200A900B6369E /* DetectCardErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657996D2CF200A900B6369E /* DetectCardErrorAlert.swift */; };
-		86579A832CF200A900B6369E /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799322CF200A900B6369E /* BranchManager.swift */; };
 		86579A842CF200A900B6369E /* CardDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657995C2CF200A900B6369E /* CardDescriptionView.swift */; };
 		86579A8A2CF200BF00B6369E /* Inter-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A872CF200BF00B6369E /* Inter-Regular.otf */; };
 		86579A8B2CF200BF00B6369E /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 86579A882CF200BF00B6369E /* Inter-SemiBold.otf */; };
@@ -171,7 +170,6 @@
 		865799262CF1FED100B6369E /* Collectibles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Collectibles.entitlements; sourceTree = "<group>"; };
 		865799272CF1FED100B6369E /* CollectiblesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiblesApp.swift; sourceTree = "<group>"; };
 		865799312CF200A900B6369E /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		865799322CF200A900B6369E /* BranchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		865799332CF200A900B6369E /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		865799342CF200A900B6369E /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		865799362CF200A900B6369E /* AlertPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentation.swift; sourceTree = "<group>"; };
@@ -406,7 +404,6 @@
 			isa = PBXGroup;
 			children = (
 				865799312CF200A900B6369E /* AmplitudeManager.swift */,
-				865799322CF200A900B6369E /* BranchManager.swift */,
 				865799332CF200A900B6369E /* FacebookManager.swift */,
 				865799342CF200A900B6369E /* FirebaseManager.swift */,
 			);
@@ -1301,7 +1298,6 @@
 				86579A802CF200A900B6369E /* GradientBackgorund.swift in Sources */,
 				86579A812CF200A900B6369E /* SplashReceiptValidationObserver.swift in Sources */,
 				86579A822CF200A900B6369E /* DetectCardErrorAlert.swift in Sources */,
-				86579A832CF200A900B6369E /* BranchManager.swift in Sources */,
 				86579A842CF200A900B6369E /* CardDescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1443,7 +1439,7 @@
 				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -1470,7 +1466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.collectables;
 				PRODUCT_NAME = Collectibles;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1495,7 +1491,7 @@
 				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -1522,7 +1518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.collectables;
 				PRODUCT_NAME = Collectibles;
 				PROVISIONING_PROFILE_SPECIFIER = "";

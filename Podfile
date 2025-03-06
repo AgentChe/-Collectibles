@@ -15,7 +15,6 @@ target 'Collectibles' do
   
   pod 'FBSDKCoreKit'
   pod 'Amplitude-iOS'
-  pod 'Branch'
   pod 'Firebase/Analytics'
   pod 'Firebase/Messaging'
 
