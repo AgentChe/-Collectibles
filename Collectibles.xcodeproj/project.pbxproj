@@ -12,7 +12,6 @@
 		8657992B2CF1FED100B6369E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799232CF1FED100B6369E /* Preview Assets.xcassets */; };
 		8657992C2CF1FED100B6369E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865799252CF1FED100B6369E /* Assets.xcassets */; };
 		865799F92CF200A900B6369E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799492CF200A900B6369E /* Fonts.swift */; };
-		865799FA2CF200A900B6369E /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799312CF200A900B6369E /* AmplitudeManager.swift */; };
 		865799FB2CF200A900B6369E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8657993D2CF200A900B6369E /* SearchView.swift */; };
 		865799FC2CF200A900B6369E /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F62CF200A900B6369E /* SessionManager.swift */; };
 		865799FD2CF200A900B6369E /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865799F02CF200A900B6369E /* IAPProduct.swift */; };
@@ -169,7 +168,6 @@
 		865799252CF1FED100B6369E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		865799262CF1FED100B6369E /* Collectibles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Collectibles.entitlements; sourceTree = "<group>"; };
 		865799272CF1FED100B6369E /* CollectiblesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiblesApp.swift; sourceTree = "<group>"; };
-		865799312CF200A900B6369E /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		865799332CF200A900B6369E /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		865799342CF200A900B6369E /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		865799362CF200A900B6369E /* AlertPresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresentation.swift; sourceTree = "<group>"; };
@@ -403,7 +401,6 @@
 		865799352CF200A900B6369E /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				865799312CF200A900B6369E /* AmplitudeManager.swift */,
 				865799332CF200A900B6369E /* FacebookManager.swift */,
 				865799342CF200A900B6369E /* FirebaseManager.swift */,
 			);
@@ -1140,9 +1137,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Collectibles/Pods-Collectibles-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Collectibles/Pods-Collectibles-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1158,7 +1159,6 @@
 			files = (
 				865799292CF1FED100B6369E /* CollectiblesApp.swift in Sources */,
 				865799F92CF200A900B6369E /* Fonts.swift in Sources */,
-				865799FA2CF200A900B6369E /* AmplitudeManager.swift in Sources */,
 				865799FB2CF200A900B6369E /* SearchView.swift in Sources */,
 				865799FC2CF200A900B6369E /* SessionManager.swift in Sources */,
 				865799FD2CF200A900B6369E /* IAPProduct.swift in Sources */,
@@ -1439,7 +1439,7 @@
 				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -1466,7 +1466,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.collectables;
 				PRODUCT_NAME = Collectibles;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1491,7 +1491,7 @@
 				CODE_SIGN_ENTITLEMENTS = Collectibles/Collectibles.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEVELOPMENT_ASSET_PATHS = "\"Collectibles/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
@@ -1518,7 +1518,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.5;
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.collectables;
 				PRODUCT_NAME = Collectibles;
 				PROVISIONING_PROFILE_SPECIFIER = "";
